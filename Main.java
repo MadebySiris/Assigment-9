@@ -1,8 +1,7 @@
-import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) { // "main" should be lowercase
-        Scanner scanner = new Scanner(System.in); // Input setup
+    public static void main(String[] args) {
+        
 
         // Instantiate objects
         Bike bike1 = new Bike(20, 10, 2, "Mountain", "Trek");
@@ -23,6 +22,6 @@ public class Main {
         System.out.println("Attributes of the second scooter:");
         scooter2.printInfo();
 
-        scanner.close();
+        
     }
 }
